@@ -30,6 +30,7 @@ As tecnologias e ferramentas utilizadas para o desenvolvimento e testes do contr
     Hardhat: Ambiente de desenvolvimento para Ethereum que facilita a compilação, o deploy e os testes.
     Ethers.js: Biblioteca para interagir com contratos na rede Ethereum.
     Chai: Biblioteca de asserções para testes em JavaScript.
+    Node.js
 
 ## Bibliotecas Instaladas
 
@@ -45,7 +46,7 @@ As principais bibliotecas instaladas para este projeto foram:
 
 Para compilar o contrato, utilizamos o Hardhat. O comando abaixo foi utilizado para compilar o código Solidity:
 
-npx hardhat compile
+    *npx hardhat compile*
 
 Resultado: Compilação realizada com sucesso.
 
@@ -53,7 +54,7 @@ Resultado: Compilação realizada com sucesso.
 
 O contrato foi implantado na rede de testes Hardhat utilizando o seguinte comando:
 
-npx hardhat run scripts/deploy.js --network hardhat
+    *npx hardhat run scripts/deploy.js --network hardhat*
 
 Resultado: O contrato foi implantado com sucesso e o endereço do contrato foi registrado. O saldo inicial do deployer foi atribuído corretamente.
 
@@ -63,7 +64,7 @@ Resultado: O contrato foi implantado com sucesso e o endereço do contrato foi r
 
 Para validar o contrato, criamos um teste automatizado em TesteCriptomoeda.js e o executamos com o comando:
 
-npx hardhat test
+    *npx hardhat test*
 
 Resultado: O teste passou com sucesso, validando que o total supply foi corretamente atribuído ao deployer.
 
