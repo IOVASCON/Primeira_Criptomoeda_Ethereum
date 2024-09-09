@@ -1,0 +1,25 @@
+{
+    "name": "criptomoeda-ethereum",
+    "version": "1.0.0",
+    "description": "Criando uma criptomoeda na rede Ethereum",
+    "scripts": {
+        "test": "npx hardhat test"
+    },
+    "dependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.2.3",
+        "criptomoeda-ethereum": "file:",
+        "dotenv": "^16.4.5",
+        "ethers": "^5.7.2"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "hardhat": "^2.3.3"
+    },
+    "main": "hardhat.config.js",
+    "directories": {
+        "test": "test"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
