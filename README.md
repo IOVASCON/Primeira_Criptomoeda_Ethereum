@@ -57,6 +57,8 @@ npx hardhat run scripts/deploy.js --network hardhat
 
 Resultado: O contrato foi implantado com sucesso e o endereço do contrato foi registrado. O saldo inicial do deployer foi atribuído corretamente.
 
+![Compilação e Deploy](./VScode%20-%20compilação%20e%20deploy.PNG)
+
 3.Testes
 
 Para validar o contrato, criamos um teste automatizado em TesteCriptomoeda.js e o executamos com o comando:
@@ -67,6 +69,8 @@ Resultado: O teste passou com sucesso, validando que o total supply foi corretam
 
   MinhaPrimeiraCriptomoeda
     ✔ Deve atribuir o total supply ao deployer (1207ms)
+
+![Test](./VScode%20-%20Test.PNG)
 
 ## Conclusão
 
